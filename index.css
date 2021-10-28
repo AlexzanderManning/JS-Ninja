@@ -1,0 +1,28 @@
+html {
+	background: url(background-img.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1,
+h2 {
+	font-size: 2rem;
+}
+
+.body {
+	padding: 5rem;
+}
+.container {
+	max-width: 50%;
+	margin: 0 auto;
+}
+
+.flex {
+	display: flex;
+}
+
+.mx {
+	margin: 0 auto;
+}

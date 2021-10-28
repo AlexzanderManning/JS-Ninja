@@ -2,13 +2,16 @@
 <html>
 	<head>
 		<title>A simple performance counter</title>
+		<link rel="stylesheet" href="/index.css" />
 		<script>
 			maxCount = 10000;
-		  console.time("My operation"); 						 //#A
-			for(var n = 0; n < maxCount; n++){ 				 //#B
-			  /*perform the operation to be measured*/ //#B
-			}                                          //#B
-			console.timeEnd("My operation");					 //#C
+			console.time('My operation'); //#A
+			for (var n = 0; n < maxCount; n++) {
+				//#B
+				/*perform the operation to be measured*/
+				//#B
+			} //#B
+			console.timeEnd('My operation'); //#C
 
 			//#A Start the timer
 			//#B Perform the operation multiple times
